@@ -604,7 +604,7 @@ static UIImage *blackArrowImage = nil, *whiteArrowImage = nil, *grayArrowImage =
         // The hierarchy and view/layer values were discovered by inspecting map kit using Reveal.app
 
         self.containerView = [UIView new];
-        self.containerView.backgroundColor = [UIColor whiteColor];
+        self.containerView.backgroundColor = [UIColor colorWithRed:0.13 green:0.13 blue:0.13 alpha:1.0];
         self.containerView.alpha = 0.96;
         self.containerView.layer.cornerRadius = 5;
         self.containerView.layer.shadowRadius = 30;
