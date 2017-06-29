@@ -26,7 +26,6 @@
 @property (nonatomic, weak) AIRMap *map;
 @property (nonatomic, weak) RCTBridge *bridge;
 
-@property (nonatomic) BOOL rightTimeToLoadMarkers;
 @property (nonatomic, strong) NSString *identifier;
 @property (nonatomic, copy) NSString *imageSrc;
 @property (nonatomic, copy) NSString *title;
